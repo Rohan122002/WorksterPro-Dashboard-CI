@@ -1,0 +1,412 @@
+html,
+body {
+    background-color: #F8FAFB;
+
+}
+
+.pd {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+.mr {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+
+.sidebar {
+    width: 100%;
+}
+
+
+
+.sidebar .active {
+    border-radius: 3px;
+    border-color:#4D7CFE;
+
+}
+
+.sidebar-sticky {
+
+    top: 0;
+    padding-top: 0.5rem;
+
+}
+
+.list-group-item {
+    border: 0;
+}
+
+.worksterpro_div {
+    padding-top: 24px;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.pro {
+    color: #4D7CFE;
+    font-size: 20px !important;
+    font-family: Rubik;
+    font-weight: 800;
+    font-style: bold;
+}
+
+.worksterpro {
+    color: #4D7CFE;
+    font-size: 20px !important;
+    font-family: Rubik;
+    font-weight: 400;
+    font-style: bold;
+    margin-bottom: 0px;
+    padding-bottom: 1px;
+}
+
+.list-group-item-action {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    padding-left: 32px;
+}
+
+.card {
+    border: none;
+    flex-direction: row;
+}
+
+.la-plus-circle {
+    font-size: 18px;
+    text-align: center;
+    vertical-align: middle;
+
+}
+
+.bell_icon {
+
+    font-size: 12px;
+    text-align: center;
+    vertical-align: middle;
+    margin-top: 6px;
+    color: #98A9BC;
+}
+
+.profile_icon {
+    text-align: right;
+    size: 10px;
+    padding-top: 10px;
+    color: #98A9BC;
+}
+
+.peoples {
+    padding-top: 20px !important;
+    padding-left: 26px !important;
+    color: #252631;
+    font-size: 20px !important;
+    font-family: Rubik;
+    font-weight: 400;
+    font-style: bold;
+}
+
+.dropdown {
+
+    padding-top: 12px;
+}
+
+.dropdown-toggle::after {
+    content: none;
+}
+
+.items {
+    color: #778CA2;
+    font-size: 16px !important;
+    font-family: Rubik;
+    font-weight: 400;
+}
+
+.sort {
+    color: #778CA2;
+    font-size: 16px !important;
+    font-family: Rubik;
+    font-weight: 400;
+    margin-bottom: 0px;
+}
+
+.user {
+    padding-left: 80px;
+}
+
+.row_icons {
+    gap: 30px !important;
+    /* padding-left: 70px; */
+    text-align: left;
+    vertical-align: middle;
+    justify-content: end !important;
+}
+.new_user {
+    padding-left: 10px;
+}
+
+.link {
+    text-decoration: none;
+    color: #4D7CFE;
+    font-size: 16px !important;
+    font-family: Rubik;
+    font-weight: 600;
+}
+
+.table_div {
+    padding-left: 28px !important;
+}
+
+.table tbody tr {
+    margin-bottom: 10px;
+    border-bottom-width: 6px !important;
+    border-color: #F8FAFB;
+    box-shadow: none;
+    border-radius: 12px !important;
+}
+
+.table tbody tr td {
+
+    background-color: white;
+    align-items: center;
+}
+
+
+td {
+    padding: 27px !important;
+    text-align: center;
+    vertical-align: middle;
+    color: #252631;
+    font-size: 18px !important;
+    font-family: Rubik;
+    font-weight: 600;
+
+
+}
+
+.togglebtn{
+ display: none;
+}
+.sidebar.active {
+    border-left: 3px solid blue !important; /* Adjust the width and color as needed */
+}
+
+.user_div {
+    padding-top: 9px;
+    padding-bottom: 14px;
+}
+
+.icon {
+    font-size: 24px;
+    /* padding-top: 5px; */
+    /* Adjust the size as needed */
+    gap: 10px;
+    color: #98A9BC;
+}
+.delete_icon{
+    padding-left: 10px !important;
+}
+.delete_user{
+    padding-left: 20px !important;
+}
+.general_div{
+    text-align: center !important;
+}
+
+.form-select {
+    border: none;
+    width: auto;
+    background-color: #F8FAFB;
+    text-align: center;
+    vertical-align: middle;
+    color: #252631;
+    font-size: 12px !important;
+    font-family: Rubik;
+    font-weight: 600;
+    padding-right: 40px;
+}
+
+.list-group-item.active {
+    z-index: 2;
+    color: black;
+    background-color: #F8FAFB;
+    border-color: none;
+}
+
+.sort_div {
+    padding-top: 5px;
+    padding-bottom: 8px;
+}
+
+.people_div {
+    background-color: #FFFFFF;
+    padding-bottom: 4px !important;
+}
+
+.container {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.list-group-item.active {
+    border-left: 3px solid blue;
+  
+}
+
+.username{
+    color: #252631;
+    font-size: 18px !important;
+    font-family: Rubik;
+    font-weight: 600;
+    text-align: left !important;
+   
+}
+.othercolumn{
+    color: #98A9BC;
+    font-size: 14px !important;
+    font-family: Rubik;
+    font-weight: 400;
+    text-align: left !important;
+   
+   
+}
+.highlight {
+    background-color: #4D7CFE !important; /* Change this to whatever color you prefer */
+}
+tr:hover {
+   
+    color: #4D7CFE;
+    cursor: pointer !important;
+}
+tbody tr:hover {
+    color: red !important;
+  }
+
+
+body {
+    min-height: 100vh;
+    overflow: auto !important;
+}
+.hidden {
+    display: none !important;
+}
+.delete_icon {
+    padding-left: 12px;
+    color: #98A9BC;
+}
+
+.first_row_icon {
+    color: #98A9BC;
+}
+#myModal {
+    background: rgba(0, 0, 0, 0.5); /* Adjust the background color and opacity as needed */
+}
+
+/* Additional styles to improve visibility and appearance of the modal */
+.modal-content {
+    background-color: #fff; /* Set a solid background color for the modal */
+    /* border-radius: 10px; */
+    border: none !important; /* Add border-radius for a rounded appearance */
+    
+}
+
+.sidebar {
+    width:100%; /* Set your preferred width */
+    transition: width 0.3s ease;
+}
+
+.sidebar.show {
+    width: 300px; /* Set expanded width */
+}
+::placeholder{
+    color: #98A9BC !important;
+    font-size: medium !important;
+}
+
+
+@media screen and (max-width: 600px) {
+    .pro {
+        font-size: 15px;
+    }
+
+    .container {
+        padding-left: 10px;
+        padding-left: 10px;
+    }
+
+    .main_section {
+        width: 100%;
+    }
+
+    .table {
+        width: 100%;
+    }
+    .container{
+        padding: 0px !important;
+        margin: 0px !important;
+    }
+    #sidebarToggle {
+        display: block; 
+    }
+    .togglebtn{
+        display: block;
+        justify-content: right;
+        
+    }
+    .list-group-flush{
+        display: none;
+    }
+    .worksterpro_div{
+        display: flex;
+    }
+    .toggle_div{
+        padding-top: 5px !important;
+    }
+    .worksterpro{
+        padding-left: 20px !important;
+        /* padding-bottom: 5px !important; */
+    }
+    .row_icons{
+        padding-left: 0px!important;
+        gap:20px !important
+    }
+    .no{
+        width: 50%;
+    }
+  .user_div{
+    display: flex;
+  }
+  .user{
+    display: flex !important;
+    width: 140px !important;
+  }
+
+  .username,.othercolumn{
+    padding-left: 3px !important;
+    padding-right: 3px !important;
+  }
+  .username{
+    font-size: 10px !important;
+  }
+  .othercolumn{
+    font-size: 8px !important;
+  }
+  .main_section{
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+  .first_row_icon{
+    font-size: 20px !important;
+  }
+  .icon{
+    font-size: 20px !important;
+  }
+  .main_icon{
+    padding-top: 5px !important;
+    font-size: 35px !important;
+  }
+  .modal-content{
+    width: 60% !important;
+    justify-content: center !important;
+    /* height: fit-content; */
+}
+}

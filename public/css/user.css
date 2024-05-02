@@ -1,0 +1,155 @@
+.modal-header {
+    justify-content: left;
+    flex-direction: row;
+}
+
+.btn-close {
+    background: none;
+
+}
+
+.close_icon {
+    font-size: 24px;
+    cursor: pointer;
+    
+}
+
+.add_user {
+    margin-bottom: 0px;
+    margin-left: 15px;
+    font-size: 20px !important;
+    font-family: Rubik;
+    font-weight: 600;
+    padding-top: 5px;
+    color: #252631;
+    padding-bottom: 5px;
+}
+
+.user_icon {
+    font-size: 26px;
+    /* padding-bottom: 20px; */
+    color: #778CA2;
+}
+
+.general {
+    
+    padding-top: 20px;
+    padding-bottom: 20px;
+    vertical-align: middle;
+    color: #4D7CFE;
+    font-size: 18px !important;
+    font-family: Rubik;
+    font-weight: 800;
+    margin-bottom: 0px;
+    background-color: #F2F4F6;
+}
+.other{
+    background-color: #F2F4F6;
+}
+
+
+
+.general_div .general {
+    border-bottom: 3px solid blue;
+
+}
+
+.form_control_1,
+.form_select_1{
+
+    font-size: 16px !important;
+    font-family: Rubik;
+    font-weight: 600;
+    color: #252631;
+    padding-left: 14px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    background-color: #ffff;
+    border: none;
+
+}
+
+.form_label_1{
+    font-size: 14px !important;
+    font-family: Rubik;
+    font-weight: 400;
+    color: #252631;
+    padding-bottom: 11px;
+
+
+}
+.modal-header{
+    padding: 25px !important;
+}
+.main_card {
+    padding: 26px;
+    background-color: #F8FAFB;
+}
+
+.pass_1 {
+    padding-top: 35px;
+    margin-bottom: 0px;
+    font-size: 18px !important;
+    font-family: Rubik;
+    font-weight: 400;
+    color: #252631;
+   
+}
+
+.pass_show {
+    padding-bottom: 25px;
+}
+
+.modal-footer {
+    padding: 22px;
+    gap: 36px;
+}
+
+.add_btn_1 {
+    background-color: #4D7CFE;
+    font-size: 14px !important;
+    font-family: Rubik;
+    font-weight: 600;
+    color: #ffff;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    padding-left: 57px;
+    padding-right: 60px;
+    border: none;
+
+}
+
+.cancel_btn_1{
+    background-color: #f2f4f6;
+    font-size: 14px !important;
+    font-family: Rubik;
+    font-weight: 600;
+    color: #778CA2;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    padding-left: 48px;
+    padding-right: 40px;
+    border: none;
+
+}
+
+.password_icon {
+    position: absolute;
+    left: 43.5%;
+    bottom: 15%;
+    cursor: pointer;
+}
+
+.eye_icon {
+    font-size: 26px;
+    color: #98A9BC;
+}
+.link{
+    text-decoration: none;
+}
+.general_div .general {
+    transition: border-bottom 0.3s ease;
+}
+.hover:hover {
+    background-color: #F8FAFB;
+}
